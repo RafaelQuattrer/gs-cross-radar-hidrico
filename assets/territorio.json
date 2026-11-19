@@ -1,0 +1,456 @@
+{
+  "fonte": "Sabesp - Portal dos Mananciais",
+  "url": "https://mananciais.sabesp.com.br/",
+  "territorio": "Sistema Cantareira · RMSP",
+  "atualizadoEm": "2026-11-19",
+  "previsao": {
+    "data_boletim": "2026-11-19",
+    "data_alvo": "2026-11-26",
+    "volume_atual_pct": 56.86124,
+    "volume_previsto_pct": 58.79621845500136,
+    "limite_inferior_empirico_pct": 57.03038364274642,
+    "limite_superior_empirico_pct": 60.562053267256296,
+    "nivel_observado": "Normal",
+    "nivel_previsto": "Normal",
+    "nivel_cauteloso": "Normal",
+    "modelo": "Ridge",
+    "chuva_30d_mm": 203.975,
+    "tendencia_7d_pp": 2.8965999999999994,
+    "balanco_parcial_7d_m3s": 47.981328571428556,
+    "limiares": {
+      "Atenção_P25": 38.34082,
+      "Alerta_P10": 32.53807,
+      "Crítico_P05": 30.019085
+    },
+    "cobertura_teste": 0.9280469897209985,
+    "supervisao_humana_obrigatoria": true
+  },
+  "metricas": {
+    "mae": 0.6527799960158353,
+    "ganho": 44.558731389673866,
+    "oportunidades": 7,
+    "acertos": 7
+  },
+  "historico": [
+    {
+      "data": "2026-09-21",
+      "volume_pct": "40.4348",
+      "chuva_mm": "8.2",
+      "afluente_m3s": "40.189",
+      "captada_m3s": "26.59"
+    },
+    {
+      "data": "2026-09-22",
+      "volume_pct": "40.61683",
+      "chuva_mm": "7.3",
+      "afluente_m3s": "48.88",
+      "captada_m3s": "25.2535"
+    },
+    {
+      "data": "2026-09-23",
+      "volume_pct": "40.93518",
+      "chuva_mm": "7.4",
+      "afluente_m3s": "60.675",
+      "captada_m3s": "23.5122"
+    },
+    {
+      "data": "2026-09-24",
+      "volume_pct": "41.19789",
+      "chuva_mm": "2.1",
+      "afluente_m3s": "54.301",
+      "captada_m3s": "24.4085"
+    },
+    {
+      "data": "2026-09-25",
+      "volume_pct": "41.31375",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "38.992",
+      "captada_m3s": "27.9199"
+    },
+    {
+      "data": "2026-09-26",
+      "volume_pct": "41.36621",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "39.992",
+      "captada_m3s": "28.8207"
+    },
+    {
+      "data": "2026-09-27",
+      "volume_pct": "41.31975",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "36.171",
+      "captada_m3s": "28.7636"
+    },
+    {
+      "data": "2026-09-28",
+      "volume_pct": "41.22785",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "29.461",
+      "captada_m3s": "27.6942"
+    },
+    {
+      "data": "2026-09-29",
+      "volume_pct": "41.18761",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "32.81",
+      "captada_m3s": "27.2614"
+    },
+    {
+      "data": "2026-09-30",
+      "volume_pct": "41.12352",
+      "chuva_mm": "1.0",
+      "afluente_m3s": "29.791",
+      "captada_m3s": "28.0531"
+    },
+    {
+      "data": "2026-10-01",
+      "volume_pct": "41.06756",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "30.75",
+      "captada_m3s": "26.5708"
+    },
+    {
+      "data": "2026-10-02",
+      "volume_pct": "41.07908",
+      "chuva_mm": "2.15",
+      "afluente_m3s": "35.621",
+      "captada_m3s": "25.5318"
+    },
+    {
+      "data": "2026-10-03",
+      "volume_pct": "41.05792",
+      "chuva_mm": "0.1",
+      "afluente_m3s": "28.952",
+      "captada_m3s": "26.4767"
+    },
+    {
+      "data": "2026-10-04",
+      "volume_pct": "41.03791",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "30.76",
+      "captada_m3s": "24.7797"
+    },
+    {
+      "data": "2026-10-05",
+      "volume_pct": "41.16474",
+      "chuva_mm": "12.7",
+      "afluente_m3s": "44.472",
+      "captada_m3s": "24.5637"
+    },
+    {
+      "data": "2026-10-06",
+      "volume_pct": "41.42079",
+      "chuva_mm": "4.2",
+      "afluente_m3s": "58.811",
+      "captada_m3s": "24.5959"
+    },
+    {
+      "data": "2026-10-07",
+      "volume_pct": "41.67761",
+      "chuva_mm": "6.5",
+      "afluente_m3s": "57.554",
+      "captada_m3s": "25.6204"
+    },
+    {
+      "data": "2026-10-08",
+      "volume_pct": "41.81507",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "46.314",
+      "captada_m3s": "27.4624"
+    },
+    {
+      "data": "2026-10-09",
+      "volume_pct": "41.87399",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "39.054",
+      "captada_m3s": "28.0102"
+    },
+    {
+      "data": "2026-10-10",
+      "volume_pct": "42.29835",
+      "chuva_mm": "31.2",
+      "afluente_m3s": "78.552",
+      "captada_m3s": "27.1388"
+    },
+    {
+      "data": "2026-10-11",
+      "volume_pct": "42.69533",
+      "chuva_mm": "3.7",
+      "afluente_m3s": "76.496",
+      "captada_m3s": "24.1802"
+    },
+    {
+      "data": "2026-10-12",
+      "volume_pct": "43.56",
+      "chuva_mm": "21.7",
+      "afluente_m3s": "124.851",
+      "captada_m3s": "25.0725"
+    },
+    {
+      "data": "2026-10-13",
+      "volume_pct": "44.01291",
+      "chuva_mm": "0.1",
+      "afluente_m3s": "78.781",
+      "captada_m3s": "25.6091"
+    },
+    {
+      "data": "2026-10-14",
+      "volume_pct": "44.30334",
+      "chuva_mm": "1.4",
+      "afluente_m3s": "59.396",
+      "captada_m3s": "25.8975"
+    },
+    {
+      "data": "2026-10-15",
+      "volume_pct": "44.42607",
+      "chuva_mm": "0.7",
+      "afluente_m3s": "41.637",
+      "captada_m3s": "26.9059"
+    },
+    {
+      "data": "2026-10-16",
+      "volume_pct": "44.82976",
+      "chuva_mm": "21.4",
+      "afluente_m3s": "73.213",
+      "captada_m3s": "26.1572"
+    },
+    {
+      "data": "2026-10-17",
+      "volume_pct": "45.2671",
+      "chuva_mm": "7.0",
+      "afluente_m3s": "76.828",
+      "captada_m3s": "23.2896"
+    },
+    {
+      "data": "2026-10-18",
+      "volume_pct": "45.55453",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "58.599",
+      "captada_m3s": "22.8634"
+    },
+    {
+      "data": "2026-10-19",
+      "volume_pct": "45.76769",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "50.564",
+      "captada_m3s": "23.7405"
+    },
+    {
+      "data": "2026-10-20",
+      "volume_pct": "45.86539",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "37.623",
+      "captada_m3s": "23.3312"
+    },
+    {
+      "data": "2026-10-21",
+      "volume_pct": "45.91245",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "31.53",
+      "captada_m3s": "25.87"
+    },
+    {
+      "data": "2026-10-22",
+      "volume_pct": "45.98255",
+      "chuva_mm": "4.3",
+      "afluente_m3s": "35.96",
+      "captada_m3s": "25.897"
+    },
+    {
+      "data": "2026-10-23",
+      "volume_pct": "46.09214",
+      "chuva_mm": "5.3",
+      "afluente_m3s": "45.064",
+      "captada_m3s": "26.8625"
+    },
+    {
+      "data": "2026-10-24",
+      "volume_pct": "46.21892",
+      "chuva_mm": "7.625",
+      "afluente_m3s": "42.901",
+      "captada_m3s": "26.5687"
+    },
+    {
+      "data": "2026-10-25",
+      "volume_pct": "47.20305",
+      "chuva_mm": "53.3",
+      "afluente_m3s": "137.634",
+      "captada_m3s": "24.6477"
+    },
+    {
+      "data": "2026-10-26",
+      "volume_pct": "48.43133",
+      "chuva_mm": "5.8",
+      "afluente_m3s": "162.36",
+      "captada_m3s": "25.2869"
+    },
+    {
+      "data": "2026-10-27",
+      "volume_pct": "49.24748",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "118.261",
+      "captada_m3s": "25.3455"
+    },
+    {
+      "data": "2026-10-28",
+      "volume_pct": "49.78448",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "87.508",
+      "captada_m3s": "25.6909"
+    },
+    {
+      "data": "2026-10-29",
+      "volume_pct": "50.05569",
+      "chuva_mm": "0.8",
+      "afluente_m3s": "56.498",
+      "captada_m3s": "24.8965"
+    },
+    {
+      "data": "2026-10-30",
+      "volume_pct": "50.70535",
+      "chuva_mm": "20.4",
+      "afluente_m3s": "98.438",
+      "captada_m3s": "26.3804"
+    },
+    {
+      "data": "2026-10-31",
+      "volume_pct": "51.20491",
+      "chuva_mm": "0.4",
+      "afluente_m3s": "83.488",
+      "captada_m3s": "26.6732"
+    },
+    {
+      "data": "2026-11-01",
+      "volume_pct": "51.54631",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "66.075",
+      "captada_m3s": "26.1765"
+    },
+    {
+      "data": "2026-11-02",
+      "volume_pct": "51.96062",
+      "chuva_mm": "15.2",
+      "afluente_m3s": "73.083",
+      "captada_m3s": "26.5239"
+    },
+    {
+      "data": "2026-11-03",
+      "volume_pct": "52.23305",
+      "chuva_mm": "0.25",
+      "afluente_m3s": "57.538",
+      "captada_m3s": "27.8367"
+    },
+    {
+      "data": "2026-11-04",
+      "volume_pct": "52.52035",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "62.128",
+      "captada_m3s": "28.6798"
+    },
+    {
+      "data": "2026-11-05",
+      "volume_pct": "52.66154",
+      "chuva_mm": "1.1",
+      "afluente_m3s": "45.823",
+      "captada_m3s": "27.5577"
+    },
+    {
+      "data": "2026-11-06",
+      "volume_pct": "52.80141",
+      "chuva_mm": "2.4",
+      "afluente_m3s": "43.647",
+      "captada_m3s": "27.8092"
+    },
+    {
+      "data": "2026-11-07",
+      "volume_pct": "52.93883",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "44.043",
+      "captada_m3s": "28.6063"
+    },
+    {
+      "data": "2026-11-08",
+      "volume_pct": "53.35746",
+      "chuva_mm": "18.4",
+      "afluente_m3s": "77.498",
+      "captada_m3s": "27.7146"
+    },
+    {
+      "data": "2026-11-09",
+      "volume_pct": "53.62439",
+      "chuva_mm": "0.8",
+      "afluente_m3s": "57.797",
+      "captada_m3s": "25.775"
+    },
+    {
+      "data": "2026-11-10",
+      "volume_pct": "53.77107",
+      "chuva_mm": "0.1",
+      "afluente_m3s": "43.848",
+      "captada_m3s": "28.2636"
+    },
+    {
+      "data": "2026-11-11",
+      "volume_pct": "53.87026",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "40.724",
+      "captada_m3s": "29.177"
+    },
+    {
+      "data": "2026-11-12",
+      "volume_pct": "53.96464",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "40.581",
+      "captada_m3s": "28.0086"
+    },
+    {
+      "data": "2026-11-13",
+      "volume_pct": "54.68158",
+      "chuva_mm": "20.3",
+      "afluente_m3s": "110.126",
+      "captada_m3s": "28.0972"
+    },
+    {
+      "data": "2026-11-14",
+      "volume_pct": "55.09691",
+      "chuva_mm": "3.2",
+      "afluente_m3s": "76.42",
+      "captada_m3s": "29.0779"
+    },
+    {
+      "data": "2026-11-15",
+      "volume_pct": "55.28451",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "52.15",
+      "captada_m3s": "27.576"
+    },
+    {
+      "data": "2026-11-16",
+      "volume_pct": "55.81263",
+      "chuva_mm": "27.5",
+      "afluente_m3s": "87.252",
+      "captada_m3s": "28.1048"
+    },
+    {
+      "data": "2026-11-17",
+      "volume_pct": "56.27284",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "81.722",
+      "captada_m3s": "28.497"
+    },
+    {
+      "data": "2026-11-18",
+      "volume_pct": "56.5008",
+      "chuva_mm": "0.0",
+      "afluente_m3s": "55.006",
+      "captada_m3s": "27.5514"
+    },
+    {
+      "data": "2026-11-19",
+      "volume_pct": "56.86124",
+      "chuva_mm": "16.8",
+      "afluente_m3s": "69.649",
+      "captada_m3s": "27.5514"
+    }
+  ]
+}
