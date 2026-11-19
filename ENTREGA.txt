@@ -1,0 +1,11 @@
+=== GLOBAL SOLUTION 2026.2 ===
+Disciplina: Cross-Platform Application Development
+Desafio: Territory Predictive Insights
+
+Integrante 1: Rafael Quattrer Dalla Costa | RM: 562052
+Modalidade: Individual
+
+GitHub: https://github.com/RafaelQuattrer/gs-cross-radar-hidrico
+Vídeo: https://drive.google.com/file/d/1PS1CTGTBDkPVtCqHMEYSGPTO6Ey6wRkY/view
+
+Vídeo de 2min12s, legendado, com telas do aplicativo em execução.

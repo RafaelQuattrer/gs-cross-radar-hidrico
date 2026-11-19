@@ -21,6 +21,7 @@ class RadarApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
+        fontFamily: 'Roboto',
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xff145e58),
           brightness: s.dark ? Brightness.dark : Brightness.light,
